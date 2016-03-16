@@ -1,0 +1,25 @@
+.box1{
+	float:left;
+	margin:2px; 
+	padding:0.4em;
+	border:2px solid red;
+	height:300px; 
+	width:300px;}
+.box2{
+	border:2px solid red;
+	margin:2px;
+	padding:0.4px;
+	width:300px;
+	height:300px;
+	float:right;}
+.box3{
+	border:2px solid red;
+	clear:both;
+	height:150px;}
+.imgsx{
+	float:left; 
+	width:100px;}
+p{
+	text-align:left;
+	background-color:yellow;}
+

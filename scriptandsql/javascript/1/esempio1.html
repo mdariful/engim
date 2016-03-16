@@ -1,0 +1,17 @@
+<html>
+<button onlick="console.log('ciao')">Click me</button>
+<script>
+var start = new Date;
+setTimeout(
+	function(){
+  var end = new Date;
+  console.log("la tua funziona e morto dopo",end - start," ms")
+  }
+,0);
+alert("ciao come stai socio");
+
+//setTimeout(function(){
+//	alert("callback me!");
+//	},5000);
+</script>
+</html>

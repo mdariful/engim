@@ -1,0 +1,11 @@
+/*foglio di stile index-211215*/
+body{background-color:white;font-family: 'Sacramento', cursive;}
+.navigation{}
+ul{list-style: none outside none;box-shadow: 0 0.25em 0.25em rgba(0,0,0,0.1);}
+.navigation li a{text-decoration:none;color:white;width:130px;background-color:#00A68E; float:left;padding-top:17px;padding-bottom:17px;text-align:center;}
+.navigation li a:hover{background-color:#F2B749;}
+.navigation li a:hover ul{}
+.navigation li:hover ul{display:block;}
+.dropdown-nav {position:absolute;top:70px;display:none;}
+.dropdown-nav.uno{left:270px;}
+.dropdown-nav.due{left:527px;}

@@ -1,0 +1,63 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it" lang="it">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<title>Form</title>
+</head>
+<body>
+ <!--commenti-->
+	<form id="feedback" method="post">
+		<action="mailto:ariful@hotmail.it">
+			<label>Nome*</label><input type="text" name="nome" size="25" maxlength="10" autofocus autocomplete="on" required="required" placeholder="inserire il tuo nome" />
+			<br /><b>Cognome</b>
+			<input type="text" name="cognome" placeholder="inserire il tuo cognome" size="25" autocomplete="on"/>
+			<br /><b>Indirizzo</b>
+			<input type="text" name="indirizzo" placeholder="indirizzo" size="25" autocomplete="on" />
+			<br /><b>Numero civico</b>
+			<input type="text" name="civico" placeholder="numero civico" size="25" autocomplete="on" />
+			<br /><label>Email</label>
+			<input type="email" name="email" placeholder="example@example.estesione" />
+			<br /><label>Nome utente</label>
+			<input type="text" name="nomeutente" placeholder="nome utente" size="25" required="required" />
+			<br /><label>Password</label>
+			<input type="password" name="password" placeholder="massimo 6 caratteri" maxlength="6"  size="25" />
+			<br /><label>Data nascita</label>
+			<input type="date" name="data" placeholder="data" size="25" />
+			<br /><label>Allegato</label>
+			<input type="file" name="allegato" placeholder="allegato" size="25" />
+			<br /><label>Indicare il tuo livello di competenza</label>
+			0<input type="range" name="competenza" placeholder="competenza" size="25" />100
+			<br /><label>Nazione</label>
+			<input type="readonly" name="name" value="Italia" readonly />
+			<br /><label>Commmenti</label><br />
+			<textarea rows="5" cols="25" name="commenti"> </textarea>
+			<br /><label>Genere</label>
+			M<input type="radio" name="genere" value="M" placeholder="genere" size="25" />
+			F<input type="radio" name="genere" value="F" placeholder="generef" size="25" checked="checked" />
+			<br /><label>Condizione</label>
+			Si<input type="radio" name="condizione" value="SI" placeholder="condizione" size="25" checked="checked" />
+			No<input type="radio" name="condizione" value="NO" placeholder="condizione" size="25" />
+			<br /><label>Sei un tipo:</label>
+			<br />interessante<input type="checkbox" name="tipo" value="interessante" />
+			<br />simpatico<input type="checkbox" name="tipo" value="simpatico" />
+			<br />socievole<input type="checkbox" name="tipo" value="socievole" />
+			<br><label>Reddito</label>
+			<input type="number" name="reddito" min="600" max="1000" />
+			<br /><label>Stati</label>
+			<select name="stati">
+				<optgroup label="Europa">
+					<option value="Italia">Italia</option>
+					<option value="Francia">Francia</option></optgroup>
+				<optgroup label="America">
+					<option value="NY">NewYork</option>
+					<option value="Nevada">Nevada</option></optgroup>
+				<optgroup label="Asia">
+					<option value="Russia">Russia</option></optgroup>
+			</select>
+			<br /><!--<input type="submit" name="invia" value="invia il modulo" />-->Invia<input type="image" src="img/invia.gif" alt="invia il modulo" height="30" />
+			<br />
+			o cancella il modulo <input type="reset" name="cancella" value="cancella i campi" />
+		</action>
+	</form>
+</body>
+</html>

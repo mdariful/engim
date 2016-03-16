@@ -1,0 +1,19 @@
+id,cognome,nome,data_nascita,altezza,peso,destrorso,nazionalita
+1,Messi,Lionel,1987-06-24,1.58,68,M,Argentina
+2,Zoff,Dino,1942-02-28,182,181,A,Italiana
+3,Baresi,Franchino,1997-10-28,176,70,D,Italia
+4,Lezzerini,Luca,1995-03-24,1.95,86,D,Italia
+5,Glik,Kamil,1988-02-03,190,80,D,Polonia
+6,Meroni,Luigi,1943-02-24,1.7,68,D,Italia
+7,Aguero,"Sergio Leonel",1988-06-02,1.72,69,D,Argentina
+8,alessandro,delpiero,1974-11-09,1.74,74,M,Italia
+9,Thiago,Motta,1982-08-28,1.87,83,D,Italiana
+10,Schweinsteiger,Bastian,1984-08-01,1.83,77,D,Germania
+11,Marchisio,Claudio,0000-00-00,1.79,71,D,Italiana
+12,Robin,"Van Persie",1983-08-06,1.86,78,D,"Paesi Bassi"
+13,Ronaldinho,Gaucho,0000-00-00,1.81,80,A,Brasiliana
+14,Zaza,Simone,1991-06-25,186,83,M,Italia
+15,Rivera,Gianni,1960-01-01,1.75,68,M,Italia
+16,Zanetti,"Javier Adelmar",1973-08-10,1.78,75,D,Argentina
+17,sforza,ciriaco,1970-03-02,1.8,78,M,svizzera
+18,"van Basten",Marco,1964-10-31,1.88,80,D,"Paesi Bassi"

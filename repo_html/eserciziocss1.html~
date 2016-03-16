@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it" lang="it">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<title>CSS</title>
+<style type="text/css">
+	/*commento css*/
+	body{
+	background-color:white;
+	}
+	h1{color:red; border-style:solid; border-color:green black red yellow;border-width:6px; border-bottom-left-radius:6px;
+	}
+	p{
+	background-color:yellow;
+	letter-spacing:20px;
+	color:blu;
+	}
+	.rosso{
+	color:red;
+	letter-spacing:normal;	
+	}
+	.giustificato{
+	text-align:justify;	
+	color:green;
+	text-decoration:underline;
+	word-spacing:10px;
+	letter-spacing:normal;
+	}
+	
+
+</style>
+</head>
+<body>
+<h1>Titolo di tipo h1 rosso</h1>
+<p>Paragrafo blu con sfondo giallo e spazio fra le lettere di 20px</p>
+<p class="rosso">paragrafo rosso con sfondo giallo con spazio fra le lettere normale</p>
+<p class="giustificato">paragrafo verde, sottolienato, con sfondo giallom con spazio fra le parole di 10px, spazio fra le lettere normale e allinemamento giustificato</p>
+</body>
+</html>

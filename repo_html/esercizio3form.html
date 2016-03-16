@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it" lang="it">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<title>Form</title>
+</head>
+<body>
+ <!--commenti-->
+	<form id="feedback" method="post">
+		<action="mailto:ariful@hotmail.it">
+			<table>
+			<tr>
+				<td><label>Nome</label></td>
+				<td><input type="text" name="nome" size="25" maxlength="10" autofocus autocomplete="on" required="required" placeholder="inserire il tuo nome" /></td>
+			</tr>
+			<tr>
+				<td><label>Cognome</label></td>
+				<td><input type="text" name="cognome" placeholder="inserire il tuo cognome" size="25" autocomplete="on"/></td>
+			</tr>
+			<tr>
+				<td><label>Seleziona il prodotto scelto</label></td>
+			<td>
+				<select name="prodotto">
+				<optgroup label="Latte">
+					<option value="Latte di soja">ILatte di soja</option>
+					<option value="Latte alta digeribilità">Latte alta digeribilità</option></optgroup>
+				<optgroup label="Dolci">
+					<option value="Budino di soja">Budino di soja</option>
+					<option value="Panna cotta soja">Panna cotta soja</option></optgroup>
+				</select>
+			</td>
+			</tr>
+			<tr>
+			<td><label>Indica la modalità di pagamento preferita</label></td>
+			</tr>
+			<tr>
+			<td>Bonifico Bancario</td>
+			<td><input type="checkbox" name="Bonifico Bancario" value="Bonifico Bancario" /></td></tr>
+			
+			<tr>
+				<td>Bollettino Postale</td>
+			<td><input type="checkbox" name="Bollettino Postale" value="Bollettino Postale" /></td>
+			</tr>
+			<tr>
+				<td>Contrassegno</td>
+			<td><input type="checkbox" name="Contrassegno" value="Contrassegno" />
+			</tr>
+			<tr>
+			<td><label>Note:</label></td>
+			</tr>
+			<tr>
+			<td><input type="image" src="img/cancella.png" alt="invia il modulo" height="30" /></td>
+			<td><!--<input type="submit" name="invia" value="invia il modulo" />-->
+			<input type="image" src="img/invia.png" alt="invia il modulo" height="30" /></td>
+			</tr>
+			</table>
+		</action>
+	</form>
+</body>
+</html>

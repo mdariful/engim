@@ -1,0 +1,2 @@
+#ciclo while
+#!/bin/bash

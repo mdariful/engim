@@ -1,0 +1,128 @@
+/*css*/
+/** {
+}*/
+
+body {
+  font-size: 14px;
+  /*background: url(img/main_bg.png) repeat;*/
+  margin: 0;
+  padding: 0;
+  color: #707070;
+}
+
+/*h2, h3 {
+  color: #;
+  padding: 10px 8px 10px 8px;
+}*/
+
+#container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+#header h1 {
+  float: left;
+  font-size: 48px;
+  font-weight: bold;
+  color: black;
+  padding: 20px 0 20px 15px;
+/*sopra destra sotto sinistra*/
+  ;
+}
+
+#header h1 span {
+  color: red;
+}
+
+#header h1 a {
+  text-decoration: none;
+  color: #333333;
+  font-size: 48px;
+}
+
+#header h1 a:hover {
+  text-decoration: none;
+  color: #333333;
+  font-size: 48px;
+}
+
+.clearfloat {
+  clear: both;
+}
+
+#navcontainer ul {
+  margin: 0;
+  list-style: none outside none;
+  color: white;
+  width: 100%;
+  text-align: center;
+  padding: 17px 0;
+ /*height:18px;*/
+  background: linear-gradient(to bottom, #45484d 0%,#000000 100%);
+}
+
+#navcontainer ul li {
+  display: inline;
+  float: center;
+}
+
+#navcontainer ul li a {
+  text-decoration: none;
+  color: #999999;
+  padding: 17px 30px;
+  border-right: solid 1px #333333;
+  text-transform: uppercase;
+}
+
+#navcontainer ul li a:hover {
+  text-decoration: none;
+  background-color: #333333;
+  color: #fff;
+}
+
+#navcontainer ul li a.active {
+  background-color: #333333;
+}
+
+#trebox {
+  padding: 15px;
+  margin-top: 0px;
+}
+
+#trebox h2 {
+  color: red;
+  padding: 10px 0 20px 0;
+}
+
+#trebox p {
+  text-align: justify;
+}
+
+.box {
+  float: left;
+  width: 27%;
+  padding: 10px 35px;
+  background-color: #e9e9e9;
+}
+
+.bottone a {
+  background-color: red;
+  color: white;
+  padding: 5px 10px;
+  margin: 10px 0;
+  text-decoration: none;
+  display: inline-block;
+  border-bottom: 1px solid white;
+}
+.contenutosx{float:left;width:600px;padding: 10px 35px;}
+h3{color:red;padding:10px 0 20px 0;}
+.contenutosx p{text-align:justify;}
+.contenutosx img{float:left; padding:2px 20px 10px 2px;}
+.links{margin-left:600px; padding: 10px 35px;}
+.links li{display:block;background:url(./../img/p.png)no-repeat left 6px;padding:0 0 10px 7px;}
+.links li a{text-decoration:none;color:rgb(0, 80, 252);}
+.links li a:hover{text-decoration:underline;color:rgb(0, 80, 252);}
+#footer{padding: 0 10px 0 20px; border-top: solid 2px black}
+#footer p{text-align:center;}
+#footer a{color:#008bce;text-decoration:none;font-size:12px;}
+#footer a:hover{text-decoration:underline;}

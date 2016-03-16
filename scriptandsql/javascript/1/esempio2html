@@ -1,0 +1,12 @@
+<html>
+<body>
+	
+	
+	<button onclick="Salutami()">Click me</button>
+	
+	<script src="./scripts/codice.js"></script>
+	
+</body>
+
+
+</html>

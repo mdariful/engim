@@ -1,0 +1,65 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it" lang="it">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<title>CSS</title>
+<style type="text/css">
+	p{
+		color:red;
+		font-family:courier;
+		font-size:18px;
+		font-weight:bold;
+		text-decoration: overline;
+		margin-bottom:100px;
+	}
+	.sottolineato{
+		text-decoration: underline;
+		margin-bottom:inherit;
+	}
+	.altro{
+		color:green;
+		text-align:right;
+		font-size:xx-large;
+		background-color:#F5A9BC;
+		border-bottom-style: solid;
+		border-bottom-color: blue;
+		margin-left:20px;
+		margin-right:20px;
+		margin-bottom:inherit;
+		padding-right:20px;
+		padding-left:30px;
+		padding-bottom:30px;
+		font-style:italic;
+	}
+	h1{
+		color:#610B5E;
+		text-align:center;
+		font-family:verdana;
+	}
+	.ciao{
+		background-color:yellow;
+		font-size:small;
+		color:black;
+	}
+	a:link{color:red;text-decoration:none;}
+	a:visited{color:red;}
+	a:hover{color:blue;font-size:24px;}
+	.sfondo{background-image:url(img/nautilius.jpg);url(img/invia.gif);background-repeat:no-repeat;border:4px solid red;height:250px;}
+	.sfumato{
+		height:400px;
+		background:grey;
+		background: linear-gradient(red,yellow);
+	}
+</style>
+</head>
+<body>
+	<div class="sfondo"></div>
+	<div class="sfumato">testo sfumato</div>
+<p>paragrafo default (rosso, grassetto, Courier, grandezza 18px, con linea sopra)</p>
+<p class="sottolineato">paragrafo default non con linea sopra ma sottolienato</p>
+<p class="altro">questo paragrafo lo vorrei verde, corsivo e allineato a sx e testo xx-large. eredita dal paragrafodi default la riga sopra</p>
+<h1>Titolo di tipo h1, viola in centro, Verdana</h1>
+<h1>Titolo di tipo h1 con la parola <span class="ciao">CIAO</span> nera e piu piccola e con sfondo giallo</h1>
+<a href="http://mdariful.com">mdariful</a>
+</body>
+</html>
